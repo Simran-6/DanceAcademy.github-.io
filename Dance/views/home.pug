@@ -1,0 +1,95 @@
+extends base.pug
+
+//- block scripts 
+//-     script(src='/static/index.js')
+
+block style
+    style 
+        include ../static/style.css
+
+block content 
+    section#introSection
+        div Welcome to AK Dance Academy
+        div.small Create. Dance. Live.
+
+
+
+    //- section#services-container
+    //-         h1#service-heading Our Speciality
+    //-         div#services 
+    //-             div.box 
+    //-                 img(src="/static/images/bollywood.jpg" class="service-image")
+    //-                 h2.h-secondary  Bollywood 
+    //-                 p.para Learn to move and groove on Bollywood songs from our talented and experienced choreographers.
+
+    //-             div.box 
+    //-                 img(src="static/images/hiphop.jpg" class="service-image")
+    //-                 h2.h-secondary Hip Hop
+    //-                 p.para Learn wide range of street style dance forms such as locking, popping, breaking etc. from our choreographers.
+
+    //-             div.box 
+    //-                 img(src="static/images/salsa.jpg" class="service-image")
+    //-                 h2.h-secondary Salsa
+    //-                 p.para Build some chemistry and have fun by learning the art of salsa under the guidance of our experts.
+
+
+
+    section#about
+        h2 About Us 
+    div.box 
+        img(src="static/images/img.jpg" style="height:433px; width:442px")
+        p#ab-para We situated at Allahpur, Mohali, Punjab, have experienced trainers who take dance classes for Bollywood, Hip-Hop, Contemporary etc. Here you can learn to dance in an easy, fast and fun filled way. We keep ourselves up-to-date with modern methods and ideas of the dancing styles and teaching aids. All our instructors are professionally trained dancers with experience to ensure that learning dance will become fun and exciting.
+
+
+    
+    section#missionSection
+        h2 It Includes
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/images/1.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/images/2.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/images/3.png")
+
+                div.card-content
+                    p This is the best dance academy of the universe 
+
+
+    section#gallery
+        h2 Gallery
+        div#gallery-div
+            img(src="/static/images/img2.jpg" class="gallery-photo")
+            img(src="/static/images/img3.jpg" class="gallery-photo")
+            img(src="/static/images/img4.jpg" class="gallery-photo")
+            img(src="/static/images/img5.jpg" class="gallery-photo")
+            img(src="/static/images/img6.jpg" class="gallery-photo")
+            img(src="/static/images/img7.jpg" class="gallery-photo")
+            img(src="/static/images/img8.jpg" class="gallery-photo")
+
+
+    section#sponsorsSection
+        h2 Our Sponsors
+        div#sponsors
+            div#sponsers-items
+                img(src="/static/images/logo3.png" alt="Sponsor-Image" class= "spImage")
+            div#sponsers-items
+                img(src="/static/images/apple_logo.png" alt= "Sponsor-Image" class= "spImage")
+            div#sponsers-items
+                img(src="/static/images/logo5.png" alt= "Sponsor-Image" class= "spImage")
+            div#sponsers-items
+                img(src="/static/images/logo4.png" alt= "Sponsor-Image" class= "spImage")

@@ -1,0 +1,3 @@
+use ContactDance
+show collections
+db.contacts.find()

@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#logo{
+    display: flex;
+    color:white;
+    align-items: center;
+    margin: 0 14px;
+    margin-right: 40px;
+}
+
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+
+#navbar{
+    background-color: black;
+    padding: 15px 14px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 20px;
+    color: white;
+}
+
+#navbar li a:hover{
+    color: grey;  
+}
+
+#introSection{
+    color: white;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background: url("/static/images/bg2.jpg") no-repeat center center/cover;
+    filter: brightness(90%)
+}
+
+#introSection div.small{
+    font-size: 35px;
+    padding: 5px;
+}
+
+/* #services-container{
+    display: flex;
+    flex-direction: column; 
+}
+
+#service-heading {
+    font-size: 45px;
+    padding: 17px;
+    text-align: center;
+}
+
+#services{
+    margin:34px;
+    display: flex;
+}
+
+#services .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;}
+
+
+.service-image{
+    margin: auto;
+    display: block;
+    height: 160px;
+    width: 250px;
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+}
+
+#services p{
+    font-size: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Bree Serif', serif;
+} */
+
+
+
+/* About Section */
+#about h2, #gallery h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+#missionSection h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+}
+
+#ab-para{
+    font-size: 20px;
+    text-align: justify;
+    padding: 36px;
+    margin: 41px;
+}
+
+
+
+#missionSection{
+    display: block;
+    height: 340px;
+    width: 95%;
+    /* margin:auto; */
+    margin: 0 55px;
+}
+
+/* #missionSection h2{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 12px;
+} */
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    /* width: 330px; */
+    width: 424px;
+    margin: 23px 20px;
+    height: 209px;
+    background-color: rgb(247, 234, 218) ;
+}
+
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 120px;
+    padding: 0 10px;
+    margin: 4px 8px;
+}
+
+.card-img img{
+    height: inherit;
+    /* to set the images in the box */
+}
+
+#sponsorsSection{
+    height: 215px;
+    background-color: rgb(26 25 27);
+}
+
+#sponsorsSection h2{
+    text-align: center;
+    color: white;
+}
+
+#sponsors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    padding-bottom: 34px;
+    max-width: 100px;
+    margin: 27px auto;
+}
+
+#sponsors-items{
+    padding:34px;
+}
+
+.spImage{
+    height: 80px;
+    margin: 20px;
+}
+
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 34px;
+    text-align: center;
+}
+
+
+.gallery-photo{
+    padding: 0px;
+    height: 228px;
+    width: 352px;
+    border-radius: 11px;
+    border: 2px solid black;
+    margin: 0px 13px;
+    /* margin-right: 17px; */
+}
+
